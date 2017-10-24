@@ -16,7 +16,8 @@ def calculate_sum(data):
 	"""arg: int-array
 	return sum of integer array
 	"""
-	sum_ = 0
-	for i in data:
-		sum_ += i
+	#sum_ = 0
+	#for i in data:
+	#	sum_ += i
+	sum_ = np.sum(data)
 	return sum_
