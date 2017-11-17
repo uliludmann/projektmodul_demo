@@ -1,4 +1,4 @@
-import numpy as np
+#import numpy as np
 
 filename = 'n.txt'
 data = []
@@ -16,8 +16,8 @@ def calculate_sum(data):
 	"""arg: int-array
 	return sum of integer array
 	"""
-	#sum_ = 0
-	#for i in data:
-	#	sum_ += i
-	sum_ = np.sum(data)
+	sum_ = 0
+	for i in data:
+		sum_ += i
+	#sum_ = np.sum(data)
 	return sum_
